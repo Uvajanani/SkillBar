@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills h2{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 28px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.bar{
+    background: #959595;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.bar div{
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+}
+
+.bar div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #222;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.java{
+    background: #8c2cdb;
+    animation: java 1s linear forwards;
+}
+.python{
+    background: #cdd34b;
+    animation: python 1s linear forwards;
+}
+.c{
+    background: #53d75c;
+    animation: c 1s linear forwards;
+}
+.cplus{
+    background: #dc39c6;
+    animation: cplus 1s linear forwards;
+}
+.html{
+    background: #e91e63;
+    animation: html 1s linear forwards;
+}
+.css{
+    background: #3bffcb;
+    animation: css 1s linear forwards;
+}
+.js{
+    background: #00bcd4;
+    animation: js 1s linear forwards;
+}
+.react{
+    background: #9c27b0;
+    animation: react 1s linear forwards;
+}
+
+.java span{
+    border: 1px solid #8c2cdb;
+}
+.python span{
+    border: 1px solid #cdd34b;
+}
+.c span{
+    border: 1px solid #53d75c;
+}
+.cplus span{
+    border: 1px solid #dc39c6;
+}
+.html span{
+    border: 1px solid #e91e63;
+}
+.css span{
+    border: 1px solid #3bffcb;
+}
+.js span{
+    border: 1px solid #00bcd4;
+}
+.react span{
+    border: 1px solid #9c27b0;
+}
+
+@keyframes java{
+    100%{
+        width: 80%;
+    }
+}
+@keyframes python{
+    100%{
+        width: 75%;
+    }
+}
+@keyframes c{
+    100%{
+        width: 62%;
+    }
+}
+@keyframes cplus{
+    100%{
+        width: 54%;
+    }
+}
+@keyframes html{
+    100%{
+        width: 76%;
+    }
+}
+@keyframes css{
+    100%{
+        width: 64%;
+    }
+}
+@keyframes js{
+    100%{
+        width: 35%;
+    }
+}
+@keyframes react{
+    100%{
+        width: 10%;
+    }
+}
